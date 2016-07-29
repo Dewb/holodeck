@@ -38,7 +38,7 @@ body {
 	position: absolute;
 	left: 66.666%;
 	right: 0;
-	top: 0;
+	top: 4em;
 	bottom: 4em;
 	color: silver;
 	margin: 0;
@@ -57,6 +57,23 @@ body {
 	text-decoration: underline;
 }
 
+#timer {
+	position: absolute;
+	left: 66.666%;
+	top: 1em;
+	z-index: 9999;
+	background: #732;
+	border-radius: 4px;
+	padding: 0.4em;
+	width: fit-content;
+	font-size: smaller;
+	font-family: sans-serif;
+	font-weight: bold;
+	box-shadow: 2px 2px DimGrey;
+	color: white;
+	height: 1.5em;
+}
+
 #status {
 	position: absolute;
 	right: 1em;
@@ -72,6 +89,7 @@ body {
 	display: none;
 	box-shadow: 2px 2px DimGrey;
 	color: black;
+	height: 1.5em;
 }
 
 #status button {

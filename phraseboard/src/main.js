@@ -1,5 +1,6 @@
 var speech = require('./speech.js');
 var library = require('./library.js');
+var countdown = require('./countdown.js');
 
 var workingPhrase = "";
 var history = "";
@@ -15,6 +16,21 @@ $(document).ready(function() {
 	$('#stopSpeaking').click(function() {
 		speech.stop(); 
 	});
+
+	$('#toggleTimer').click(function() {
+		if (countdown.isRunning()) {
+			countdown.stop();
+			$('#toggleTimer').text("START");
+		} else {
+			countdown.start({ seconds: 300, onUpdate: function(seconds) {
+				$('#time').text(Math.floor(seconds / 60) + ":" + ((seconds % 60 < 10) ? "0" : "") + seconds % 60);
+				if (seconds == 0) {
+					$('#toggleTimer').text("STOP");
+				}
+			}});
+			$('#toggleTimer').text("STOP");
+		}
+	})
 
 	$(document).on('click', '.phrase', function(e) {
 		sayPhrase(e.target.innerText);
