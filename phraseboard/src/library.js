@@ -28,6 +28,8 @@ $(document).ready(function() {
     	$(document).on('click', '.libraryCategory', function(e) {
 			selectCategory(e.target.innerText);
     	});
+
+    	selectCategory("Opening");
     });
 
 });
@@ -50,8 +52,23 @@ var updateLibraryWidget = function() {
 	});
 };
 
+var addToLibrary = function(newPhrase) {
+	if (!("Custom" in libraryData)) {
+		libraryData["Custom"] = [];
+	}
+	if ($.inArray(newPhrase, libraryData["Custom"]) == -1) {
+		libraryData["Custom"].push(newPhrase);
+		localStorage["libraryCustomContent"] = JSON.stringify(libraryData["Custom"]);
+	}
+
+	if ($('.libraryCategory:contains(Custom)').hasClass("selectedCategory")) {
+		selectCategory("Custom");
+	}
+}
+
 module.exports = {
 
-	update: updateLibraryWidget
+	update: updateLibraryWidget,
+	addToLibrary: addToLibrary
 
 };

@@ -30,6 +30,7 @@ $(document).ready(function() {
 	window.onkeydown = function(e) {
 		if (e.key == "Enter") {
 			sayPhrase(workingPhrase);
+			library.addToLibrary(workingPhrase);
 			workingPhrase = "";	
 		} else if (e.key == "Escape") {
 			speech.stop();

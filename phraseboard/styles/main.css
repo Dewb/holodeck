@@ -21,6 +21,7 @@ body {
 	border-radius: 8px;
 	padding: 0.5em;
 	box-shadow: 2px 2px DimGrey;
+	color: black;
 }
 
 #library { 
@@ -29,7 +30,6 @@ body {
 	right: 33.333%;
 	top: 0;
 	bottom: 4em;
-	border: 1px solid silver;
 	margin: 0;
 	padding-top: 0.3em;
 }
@@ -71,6 +71,7 @@ body {
 	font-weight: bold;
 	display: none;
 	box-shadow: 2px 2px DimGrey;
+	color: black;
 }
 
 #status button {
@@ -85,7 +86,7 @@ body {
 
 #library #libraryCategories {
 	position: relative;
-	display: inline-block;
+	float: left;
 	width: 20%;
 	height: 100%;
 	overflow-y: scroll;
@@ -99,6 +100,10 @@ body {
 	width: 85%;
 }
 
+#library #libraryCategories li:hover {
+	background-color: #222;
+}
+
 #library #libraryCategories li.selectedCategory {
 	background-color: blue;
 	color: white;
@@ -106,7 +111,11 @@ body {
 
 #library #libraryPhraseList {
 	position: relative;
-	display: inline-block;
+	float: left;
+	top: 0;
 	height: 100%;
+	width: 80%;
 	overflow-y: scroll;
+	color: white;
+	line-height: 1.4em;
 }
