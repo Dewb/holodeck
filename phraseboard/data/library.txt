@@ -174,3 +174,8 @@ Please see attendant.
 Flushing caches. Rewinding to last consistent state.
 Inconsistencies detected. Branching timeline to continue.
 
+# Ending
+
+Your five minutes are now up!
+Thank you for using VR Extreme Holodeck Two Thousand!
+We hope you had an amazing, larger-than-life experience using our cutting-edge technology.

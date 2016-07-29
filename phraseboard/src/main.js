@@ -1,6 +1,6 @@
 var speech = require('./speech.js');
 var library = require('./library.js');
-var countdown = require('./countdown.js');
+var clock = require('./clock.js');
 
 var workingPhrase = "";
 var history = "";
@@ -18,16 +18,19 @@ $(document).ready(function() {
 	});
 
 	$('#toggleTimer').click(function() {
-		if (countdown.isRunning()) {
-			countdown.stop();
+		if (clock.isRunning()) {
+			clock.stop();
 			$('#toggleTimer').text("START");
 		} else {
-			countdown.start({ seconds: 300, onUpdate: function(seconds) {
-				$('#time').text(Math.floor(seconds / 60) + ":" + ((seconds % 60 < 10) ? "0" : "") + seconds % 60);
-				if (seconds == 0) {
-					$('#toggleTimer').text("STOP");
+			clock.start({ 
+				seconds: 300, 
+				onUpdate: function(seconds) {
+					$('#time').text(formatSeconds(seconds));
+					if (seconds == 0) {
+						$('#toggleTimer').text("START");
+					}
 				}
-			}});
+			});
 			$('#toggleTimer').text("STOP");
 		}
 	})
@@ -77,11 +80,16 @@ function isKeyPrintable(e) {
     return valid;
 }
 
+function formatSeconds(seconds) {
+	return Math.floor(seconds / 60) + ":" + ((seconds % 60 < 10) ? "0" : "") + seconds % 60;
+}
+
 function updateTextEntry() {
 	$('#textEntry span').text('> ' + workingPhrase);
 }
 
 function addToHistory(phraseText) {
+	$('#history').append('<span class="timestamp">[' + formatSeconds(clock.currentTime()) + '] </span> ');
 	$('#history').append('<span class="phrase">' + phraseText + '</span><br>');
 	$('#history').scrollTop($('#history')[0].scrollHeight);
 	localStorage["history"] = JSON.stringify($("#history").html());

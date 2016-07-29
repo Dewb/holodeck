@@ -5,15 +5,17 @@ var timer;
 var instance = undefined;
 var running = false;
 var update = undefined;
+var seconds = 0;
 
 module.exports = {
 	
 		tick: function() {
 		    if (seconds === 0) {
       			instance.stop();
-      	    }
-		    seconds--;
-		    update(seconds);
+      	    } else {
+			    seconds--;
+			}
+			update(seconds);
 		},
 
 		start: function (options) {
@@ -24,7 +26,7 @@ module.exports = {
 		    timer = 0;
 		    running = true;
 		    instance = this;
-		    update(seconds);
+		    if (update) update(seconds);
 		    timer = setInterval(instance.tick, 1000);
 		},
 
@@ -35,6 +37,10 @@ module.exports = {
 
 		isRunning: function() {
 		  	return running;
+		},
+
+		currentTime: function() {
+			return seconds;
 		}
 
 }

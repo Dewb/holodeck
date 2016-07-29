@@ -14,22 +14,23 @@ body {
 #textEntry {
 	background-color: white;
 	position: absolute;
-	bottom: 1em;
+	top: 1em;
 	left: 1em;
-	right: 1em;
+	right: 11em;
 	border: 2px solid silver;
 	border-radius: 8px;
 	padding: 0.5em;
 	box-shadow: 2px 2px DimGrey;
 	color: black;
+	height: 1.25em;
 }
 
 #library { 
 	position: absolute;
 	left: 0;
 	right: 33.333%;
-	top: 0;
-	bottom: 4em;
+	top: 5em;
+	bottom: 0;
 	margin: 0;
 	padding-top: 0.3em;
 }
@@ -38,8 +39,8 @@ body {
 	position: absolute;
 	left: 66.666%;
 	right: 0;
-	top: 4em;
-	bottom: 4em;
+	top: 5em;
+	bottom: 0;
 	color: silver;
 	margin: 0;
 	padding-left: 0.5em;
@@ -47,6 +48,10 @@ body {
 	background-color: #222;
 	overflow-y: scroll;
 	line-height: 1.4em;
+}
+
+#history .timestamp {
+	color: #8a7;
 }
 
 .phrase {
@@ -59,34 +64,39 @@ body {
 
 #timer {
 	position: absolute;
-	left: 66.666%;
+	right: 1em;
 	top: 1em;
 	z-index: 9999;
 	background: #732;
-	border-radius: 4px;
-	padding: 0.4em;
+	border-radius: 8px;
+	padding: 0.5em;
 	width: fit-content;
-	font-size: smaller;
 	font-family: sans-serif;
 	font-weight: bold;
-	box-shadow: 2px 2px DimGrey;
+	border: 2px solid #411;
+	box-shadow: 2px 2px #222;
 	color: white;
-	height: 1.5em;
+	height: 1.25em;
+}
+
+#timer button {
+	width: 5em;
 }
 
 #status {
 	position: absolute;
 	right: 1em;
-	top: 1em;
+	top: 5em;
 	z-index: 9999;
 	background: #0d0;
-	border-radius: 4px;
-	padding: 0.4em;
+	border-radius: 8px;
+	padding: 0.5em;
 	width: fit-content;
 	font-size: smaller;
 	font-family: sans-serif;
 	font-weight: bold;
 	display: none;
+	border: 2px solid green;
 	box-shadow: 2px 2px DimGrey;
 	color: black;
 	height: 1.5em;

@@ -7,14 +7,15 @@ $(document).ready(function() {
 		var lines = data.split('\n');
 		var category = "";
 		for (var i = 0; i < lines.length; i++) {
-			if (lines[i] == "") {
-				continue;
-			} else if (lines[i].startsWith('# ')) {
+			if (lines[i].startsWith('# ')) {
 				category = lines[i].slice(2);
 				continue;
 			}
 			if (!(category in libraryData)) {
 				libraryData[category] = [];
+			}
+			if (lines[i] == "" && libraryData[category].length == 0) {
+				continue;
 			}
 			libraryData[category].push(lines[i]);
 		}
