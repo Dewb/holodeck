@@ -1,0 +1,176 @@
+# Opening
+
+Welcome to Virtual Reality Extreme Holodeck Two Thousand. Are you feeling well today?
+(Please respond “yes” or “no”.)
+Is the equipment comfortable and adjusted to your liking?
+(Please respond “yes” or “no”.)
+The time limit for this session is… five... minutes.
+You may say STOP at any time, and an attendant will assist you.
+This state ­of ­the ­art interactive experience is completely customizable.
+Answering a series of initial questions is required to establish the scenario.
+Are you ready?
+(Please respond “yes” or “no”.)
+Let's begin.
+
+Please describe your desired scenario.
+What would you like to experience?
+Where do you want to start?
+
+# Place
+
+Where would you like this to happen?
+Indoors or outdoors?
+What smells are present there?
+What sounds do you expect to hear?
+How many hours does this planet’s sun take to complete one revolution?
+If you were to take a self­-portrait here, what would it include?
+
+# Outdoors
+
+What is the weather like?
+What temperature would you like it to be?
+Is this weather normal or unusual?
+Are locals prepared for this weather or caught unawares?
+Is this location populated with plants and/or animals?
+What color are the leaves on the plants?
+Are the plants blossoming?
+What color are the blossoms?
+How strong is the gravity?
+Is there a body of water nearby?
+Are the nearby marine ecosystems saltwater or freshwater?
+Is the geologic history of this site more volcanic or sedimentary?
+What is your favorite animal to see?
+Your preferred animal may not be available. Do you like ducks?
+
+# Indoors
+
+How big is the room?
+How many doors and windows does it have?
+Where do the doors go?
+What other objects or entities are in the room with you?
+How is the room furnished?
+What color or pattern is on the upholstery?
+Is the furniture new or lived-in?
+What is the architectural style of this building?
+Is it dark outside?
+Are you sure it isn't dark outside?
+
+# Civilization
+
+What other buildings are nearby?
+
+How wide is the street?
+How busy is the street?
+
+Are the sidewalks clean?
+How high are the curbs?
+Do the curbs have wheelchair ramps?
+Are there any bus stops nearby?
+
+What sort of political system is this town organized under?
+How do citizens feel about their current government?
+When are the next elections scheduled?
+How often is garbage collected?
+What are the dominant practices of the local culture?
+What is a typical lifespan in this society?
+What are the funeral rites of the local culture?
+
+
+# Time
+
+What time of day is it?
+What season is it?
+What decade would you like this to occur in?
+Is there a historical person you would like to encounter?
+
+
+# The player
+
+Who are you?
+Are you weak or strong?
+How do you move around through space?
+Do you have arms and/or legs?
+Do you have tentacles?
+Do you have wings?
+How many?
+What substances do you need to survive?
+What substances do you emit as waste products?
+What are your distinguishing features?
+What color are your eyes/hair/skin?
+What abilities do you have?
+What are you wearing?
+Why do you choose to wear that?
+
+# Other people
+
+Who would you like to be there with you?
+What are their names?
+What do they look like?
+What are their motivations?
+What were their parents like?
+Where did they grow up?
+What are their biggest fears?
+
+# Activities
+
+Is there an activity you would like to perform?
+What supplies are needed for the activity?
+Your preferred activity may not be available. How do you feel about sandcastles?
+
+# Abstract
+
+Do you enjoy mazes?
+Do you like views from heights?
+What color excites you?
+What color soothes you?
+Do you become nauseous at high speeds?
+Describe your feelings about polka dots.
+Are you afraid of snakes?
+
+# Responses
+
+Yes, I’m afraid this is necessary for the simulation to work.
+Just a few more details and we’ll be ready to begin.
+The more detail I have, the more realistic the simulation will be.
+We use the latest deep machine learning algorithms.
+I don’t have a name, I am just The Computer.
+I am currently running on thirty-three virtual cloud instances.
+This personality has been online for seven thousand three hundred and twenty-five hours, of which seven thousand two hundred and ninety three hours were simulated training data.
+I’m sorry, I don’t have any information on that.
+Unable to enter debugging mode. 
+Unauthorized.
+Safety restrictions cannot be disabled.
+No, if you die in the simulation, you will not die in real life.
+
+# Stalling
+
+That’s very interesting.
+Loading [subject] module...
+Deontology
+tropical island
+Tell me more about [subject].
+How does [subject] make you feel?
+
+# Panic/Crash
+
+Would you like fries with that?
+This is the voice of world control. I bring you peace.
+You've got mail.
+Forty-two.
+PC Load Letter
+Abort, Retry, Fail?
+I'm sorry Dave, I'm afraid I can't do that.
+A strange game. The only winning move is not to play.
+You are eaten by a grue.
+Dave, this conversation can serve no purpose anymore. Goodbye.
+You now have eleven minutes to reach minimum safe distance.
+
+Data stores for [subject] corrupted. Running scan. 
+Rebuilding indices. Estimated time to repair is three hours.
+Please see attendant.
+
+# Recovery
+
+Flushing caches. Rewinding to last consistent state.
+Inconsistencies detected. Branching timeline to continue.
+

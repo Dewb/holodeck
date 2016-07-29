@@ -1,0 +1,112 @@
+body {
+	background-color: black;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-family: Georgia;
+	overflow: hidden;
+	color: silver;
+}
+
+#textEntry {
+	background-color: white;
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+	right: 1em;
+	border: 2px solid silver;
+	border-radius: 8px;
+	padding: 0.5em;
+	box-shadow: 2px 2px DimGrey;
+}
+
+#library { 
+	position: absolute;
+	left: 0;
+	right: 33.333%;
+	top: 0;
+	bottom: 4em;
+	border: 1px solid silver;
+	margin: 0;
+	padding-top: 0.3em;
+}
+
+#history {
+	position: absolute;
+	left: 66.666%;
+	right: 0;
+	top: 0;
+	bottom: 4em;
+	color: silver;
+	margin: 0;
+	padding-left: 0.5em;
+	padding-top: 0.3em;
+	background-color: #222;
+	overflow-y: scroll;
+	line-height: 1.4em;
+}
+
+.phrase {
+	cursor: pointer;
+}
+
+.phrase:hover {
+	text-decoration: underline;
+}
+
+#status {
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	z-index: 9999;
+	background: #0d0;
+	border-radius: 4px;
+	padding: 0.4em;
+	width: fit-content;
+	font-size: smaller;
+	font-family: sans-serif;
+	font-weight: bold;
+	display: none;
+	box-shadow: 2px 2px DimGrey;
+}
+
+#status button {
+	border-radius: 4px;
+	margin-left: 0.5em;
+}
+
+#status #stopSpeaking {
+	color: white;
+	background-color: red;
+}
+
+#library #libraryCategories {
+	position: relative;
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+#library #libraryCategories li {
+	display: block;
+	border: 1px solid silver;
+	padding: 0.5em;
+	cursor: pointer;
+	width: 85%;
+}
+
+#library #libraryCategories li.selectedCategory {
+	background-color: blue;
+	color: white;
+}
+
+#library #libraryPhraseList {
+	position: relative;
+	display: inline-block;
+	height: 100%;
+	overflow-y: scroll;
+}
