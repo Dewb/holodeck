@@ -6,6 +6,11 @@
    src="https://code.jquery.com/jquery-3.0.0.min.js"   
    integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="
    crossorigin="anonymous"></script>
+  <script>
+   if (typeof jQuery == 'undefined') {
+    document.write(unescape("%3Cscript src='/lib/jquery-3.0.0.min.js' type='text/javascript'%3E%3C/script%3E"));
+   }
+  </script>
 
   <script src="dist/bundle.js"></script>
 
