@@ -11,6 +11,16 @@ body {
 	color: silver;
 }
 
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-track {
+	background: black;
+}
+::-webkit-scrollbar-thumb {
+	background: DimGrey;
+}
+
 #textEntry {
 	background-color: white;
 	position: absolute;
@@ -31,8 +41,9 @@ body {
 	right: 33.333%;
 	top: 5em;
 	bottom: 0;
-	margin: 0;
+	margin-right: 0.25em;
 	padding-top: 0.3em;
+	box-sizing: border-box;
 }
 
 #history {
@@ -125,7 +136,7 @@ body {
 	border: 1px solid silver;
 	padding: 0.5em;
 	cursor: pointer;
-	width: 85%;
+	width: 87%;
 }
 
 #library #libraryCategories li:hover {
@@ -142,8 +153,9 @@ body {
 	float: left;
 	top: 0;
 	height: 100%;
-	width: 80%;
+	width: 78%;
 	overflow-y: scroll;
 	color: white;
 	line-height: 1.4em;
+	margin-left: 0.25em;
 }

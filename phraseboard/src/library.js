@@ -4,7 +4,7 @@ var libraryData = {};
 $(document).ready(function() {
 
 	$.get('/data/library.txt', function (data, textStatus, jqXHR) {
-		var lines = data.split('\n');
+		var lines = data.split(/\r?\n/);
 		var category = "";
 		for (var i = 0; i < lines.length; i++) {
 			if (lines[i].startsWith('# ')) {
