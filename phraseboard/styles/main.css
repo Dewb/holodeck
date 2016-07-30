@@ -37,9 +37,9 @@ body {
 
 #library { 
 	position: absolute;
-	left: 0;
+	left: 1em;
 	right: 33.333%;
-	top: 5em;
+	top: 4.5em;
 	bottom: 0;
 	margin-right: 0.25em;
 	padding-top: 0.3em;
@@ -49,9 +49,9 @@ body {
 #history {
 	position: absolute;
 	left: 66.666%;
-	right: 0;
-	top: 5em;
-	bottom: 0;
+	right: 0.5em;
+	top: 4.5em;
+	bottom: 1em;
 	color: silver;
 	margin: 0;
 	padding-left: 0.5em;
@@ -133,10 +133,17 @@ body {
 
 #library #libraryCategories li {
 	display: block;
-	border: 1px solid silver;
+	border-top: 2px solid DimGrey;
+	border-left: 2px solid DimGrey;
+	border-right: 2px solid DimGrey;
+	border-bottom: none;
 	padding: 0.5em;
 	cursor: pointer;
 	width: 87%;
+}
+
+#library #libraryCategories li:last-child {
+	border-bottom: 2px solid DimGrey;
 }
 
 #library #libraryCategories li:hover {
