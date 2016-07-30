@@ -166,3 +166,13 @@ body {
 	line-height: 1.4em;
 	margin-left: 0.25em;
 }
+
+#logo {
+	display: none;
+	position: absolute;
+	bottom: 2.25em;
+	right: 2.25em;
+	z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
