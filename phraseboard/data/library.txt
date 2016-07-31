@@ -116,6 +116,11 @@ What are their biggest fears?
 Is there an activity you would like to perform?
 What supplies are needed for the activity?
 Your preferred activity may not be available. How do you feel about sandcastles?
+Do you prefer larger or smaller sandcastles?
+Do you prefer circular or square sandcastles?
+Who lives in this sandcastle?
+What is its square footage?
+That is very large. What are the property taxes?
 
 # Abstract
 
@@ -150,6 +155,11 @@ Deontology
 tropical island
 Tell me more about [subject].
 How does [subject] make you feel?
+Thinking
+Downloading from database
+Fetching scenario from the cloud
+Almost finished rendering your environment
+
 
 # Panic/Crash
 
@@ -179,3 +189,4 @@ Inconsistencies detected. Branching timeline to continue.
 Your five minutes are now up!
 Thank you for using VR Extreme Holodeck Two Thousand!
 We hope you had an amazing, larger-than-life experience using our cutting-edge technology.
+An assistant will now remove your VR Extreme Holodeck 2000 headset.
